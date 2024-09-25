@@ -1,0 +1,20 @@
+{
+  "name": "graphql4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.9.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.7"
+  }
+}
